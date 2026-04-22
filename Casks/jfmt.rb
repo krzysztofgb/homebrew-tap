@@ -4,22 +4,22 @@ cask "jfmt" do
 
   on_macos do
     on_intel do
-      sha256 "051890be6bb554f149bb495193cfa9034aff9ba60b9cf115ea5aac2fd27e0f39"
+      sha256 "ce65d01f54c178619e30b8bab5d27d7762c268eb40184fdf44c591d608829bec"
       url "https://github.com/krzysztofgb/jfmt/releases/download/v#{version}/jfmt_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "785cc3119cef452838eace566befe9a620cf909cf5b94269707f304226a340fa"
+      sha256 "d91b1c92329564c2c0b5d8e1d4109d12f91a910a5d324e32cafaa546ac518553"
       url "https://github.com/krzysztofgb/jfmt/releases/download/v#{version}/jfmt_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "1d1df627167c027c9cf48c07ee9c90e855e64e6d6e66ccdd9fe08c4d361b2628"
+      sha256 "4efbbda40a8955744685e2f35acda3bf28345c3d7af5ebcc125f554f5bb11dcd"
       url "https://github.com/krzysztofgb/jfmt/releases/download/v#{version}/jfmt_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "3c535b385f51eb24f12823c2d11c70e6fa4a3799e2e05bd823dc7d8163ca2bfa"
+      sha256 "05113811eac7d08561ea78745d93fe6e6bd690a6a08c6836a43478e1699ae1e6"
       url "https://github.com/krzysztofgb/jfmt/releases/download/v#{version}/jfmt_#{version}_linux_arm64.tar.gz"
     end
   end
